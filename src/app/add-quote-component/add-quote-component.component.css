@@ -1,0 +1,10 @@
+.addquote{
+    display: inline-block
+}
+.errors{
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: top;
+    margin-top: 70px;
+    color: red;
+}

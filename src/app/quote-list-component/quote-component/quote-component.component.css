@@ -1,0 +1,28 @@
+.a_quote {
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.quote {
+    width: 100%;
+}
+
+.rating, .buttons {
+    width: 15%;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}

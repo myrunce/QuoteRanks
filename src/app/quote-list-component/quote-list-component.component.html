@@ -1,0 +1,9 @@
+<h1>Quote List</h1>
+<app-quote-component
+    *ngFor="let quote of quotes, let i = index"
+    [quote]='quote'
+    [i] = "i"
+    (upvoteEmitter)="upvoteEvent($event)"
+    (downvoteEmitter)="downvoteEvent($event)"
+    (deleteEmitter)="deleteEvent($event)">
+</app-quote-component>
